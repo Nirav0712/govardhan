@@ -1,0 +1,38 @@
+# Copy this to .env file in backend directory for local development
+
+# Local Development Environment Variables
+NODE_ENV=development
+PORT=5000
+
+# Database - Keep your existing MongoDB Atlas connection
+# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/govardhanthal?retryWrites=true&w=majority
+
+# JWT Secrets - Keep your existing production secrets
+# JWT_SECRET=your-existing-jwt-secret
+# JWT_EXPIRE=7d
+
+# Frontend URL (for CORS) - Only change this for local development
+FRONTEND_URL=http://localhost:5173
+
+# Cloudinary - Keep your existing production credentials
+# CLOUDINARY_CLOUD_NAME=your-existing-cloud-name
+# CLOUDINARY_API_KEY=your-existing-api-key
+# CLOUDINARY_API_SECRET=your-existing-api-secret
+
+# Email Configuration - Keep your existing email settings
+# EMAIL_HOST=smtp.gmail.com
+# EMAIL_PORT=587
+# EMAIL_USER=your-existing-email@gmail.com
+# EMAIL_PASS=your-existing-app-password
+# EMAIL_FROM=noreply@govardhanthal.com
+# CONTACT_EMAIL=info@govardhanthal.com
+
+# Admin Configuration - Keep your existing admin credentials
+# ADMIN_EMAIL=admin@govardhanthal.com
+# ADMIN_PASSWORD=your-existing-admin-password
+
+# Google Maps API - Keep your existing API key
+# GOOGLE_MAPS_API_KEY=your-existing-google-maps-key
+
+# NOTE: Only uncomment and modify the FRONTEND_URL above for local development
+# Keep all other settings as they are in your production environment

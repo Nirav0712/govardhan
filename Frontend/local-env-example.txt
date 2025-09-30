@@ -1,0 +1,5 @@
+# Copy this to .env.local file in Frontend directory for local development
+
+# Local Development Environment Variables
+VITE_API_BASE_URL=http://localhost:5000/api
+VITE_NODE_ENV=development
